@@ -1,0 +1,17 @@
+
+#interncard {
+    background-color:blue;
+}
+#engineercard {
+    background-color:green;
+}
+#managercard {
+    background-color:red;
+}
+h5.card-header {
+    color:white;
+}
+
+div.card {
+    font-weight:bold;
+}

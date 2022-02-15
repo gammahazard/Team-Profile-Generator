@@ -26,7 +26,7 @@
 
 ## About
 
-  Upon running the application, you will be given the option to input employee information based on three different roles, a manager, engineer and intern. The information entered is color-coded according to role Depending on the role chosen, you will be prompted for different information.
+  Upon running the application, you will be given the option to input employee information based on three different roles, a manager, engineer and intern. The information entered is color-coded according to role and lastly depending on the role chosen, you will be prompted for different information.
 
 ---
 

@@ -21,14 +21,15 @@
   },
   "homepage": "https://github.com/gammahazard/Team-Profile-Generator/#readme",
   "dependencies": {
-    "inquirer": "^7.0.0",
-    "jest": "^24.9.0"
+    "inquirer": "^7.0.0"
   },
-  "devDependencies": {},
   "keywords": [
     "generate",
     "employee",
     "management",
     "employeelist"
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }

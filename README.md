@@ -32,12 +32,13 @@
 
 ## Visuals:
 
-  ![]()
+ <img width="871" alt="d5eec713124cbc17fe65b442012db6c1" src="https://user-images.githubusercontent.com/92896466/155669575-160e74d3-41f1-4a5b-8579-e0face701b00.png">
+
 
 ---
 
 ## Installation:
-  Ensure you have cloned the repo, after navigating to the directory of the application in your command line, simply run npm install, this will access the packages.json file and download any required packages.
+  Ensure you have cloned the repo, after navigating to the directory of the application in your command line, simply run npm install, this will access the packages.json file and download any required packages. After run npm start to run the application.
 
   To clone the repo:
   
@@ -53,7 +54,9 @@
 ---
 
 ## Test
-  Coming soon
+ run npm test 
+ <img width="420" alt="cff0718cfd50b8494f7d1bb6fd749842" src="https://user-images.githubusercontent.com/92896466/155669551-3b8bed15-564f-4444-a597-665befeccd90.png">
+
 
 ---
 

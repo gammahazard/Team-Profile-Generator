@@ -97,6 +97,7 @@ function startHtml() {
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <title>Team Profile</title>
     </head>
     <body>
@@ -124,7 +125,7 @@ function addHtml(member) {
             const gitHub = member.getGithub();
             data = `<div class="col-6" id="engineerdiv">
             <div class="card mx-auto mb-3" style="width: 18rem" id="engineercard">
-            <h5 class="card-header">${name}<br /><br />Engineer</h5>
+            <h5 class="card-header">${name}<br /><br /><i class="fa-solid fa-calculator"></i>   Engineer</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
                 <li class="list-group-item"><a href="mailto:${email}"<button> Email Address: ${email}</a></li>
@@ -136,7 +137,7 @@ function addHtml(member) {
             const school = member.getSchool();
             data = `<div class="col-6" id="interndiv">
             <div class="card mx-auto mb-3" style="width: 18rem" id="interncard">
-            <h5 class="card-header">${name}<br /><br />Intern</h5>
+            <h5 class="card-header">${name}<br /><br /><i class="fa-solid fa-graduation-cap"></i>   Intern</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
                 <li class="list-group-item"><a href="mailto:${email}"<button> Email Address: ${email}</a></li>
@@ -148,7 +149,7 @@ function addHtml(member) {
             const officePhoneNum = member.getOfficeNumber();
             data = `<div class="col-6" id="managerdiv">
             <div class="card mx-auto mb-3" style="width: 18rem" id="managercard">
-            <h5 class="card-header">${name}<br /><br />Manager</h5>
+            <h5 class="card-header">${name}<br /><br /><i class="fa-solid fa-chair-office"></i>   Manager</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
                 <li class="list-group-item"><a href="mailto:${email}"<button> Email Address: ${email}</a></li>
